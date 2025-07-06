@@ -28,62 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtpFromDate = new System.Windows.Forms.DateTimePicker();
-            this.dtpToDate = new System.Windows.Forms.DateTimePicker();
-            this.btnReportRange = new System.Windows.Forms.Button();
-            this.dgvRangeReport = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRangeReport)).BeginInit();
-            this.SuspendLayout();
+            dtpFromDate = new System.Windows.Forms.DateTimePicker();
+            dtpToDate = new System.Windows.Forms.DateTimePicker();
+            btnReportRange = new System.Windows.Forms.Button();
+            dgvRangeReport = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(dgvRangeReport)).BeginInit();
+            SuspendLayout();
             // 
             // dtpFromDate
             // 
-            this.dtpFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFromDate.Location = new System.Drawing.Point(10, 10);
-            this.dtpFromDate.Name = "dtpFromDate";
-            this.dtpFromDate.Size = new System.Drawing.Size(100, 27);
-            this.dtpFromDate.TabIndex = 0;
+            dtpFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            dtpFromDate.Location = new System.Drawing.Point(10, 10);
+            dtpFromDate.Name = "dtpFromDate";
+            dtpFromDate.Size = new System.Drawing.Size(100, 27);
+            dtpFromDate.TabIndex = 0;
             // 
             // dtpToDate
             // 
-            this.dtpToDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpToDate.Location = new System.Drawing.Point(120, 10);
-            this.dtpToDate.Name = "dtpToDate";
-            this.dtpToDate.Size = new System.Drawing.Size(100, 27);
-            this.dtpToDate.TabIndex = 1;
+            dtpToDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            dtpToDate.Location = new System.Drawing.Point(120, 10);
+            dtpToDate.Name = "dtpToDate";
+            dtpToDate.Size = new System.Drawing.Size(100, 27);
+            dtpToDate.TabIndex = 1;
             // 
             // btnReportRange
             // 
-            this.btnReportRange.Location = new System.Drawing.Point(230, 10);
-            this.btnReportRange.Name = "btnReportRange";
-            this.btnReportRange.Size = new System.Drawing.Size(100, 27);
-            this.btnReportRange.TabIndex = 2;
-            this.btnReportRange.Text = "Báo cáo";
-            this.btnReportRange.UseVisualStyleBackColor = true;
-            this.btnReportRange.Click += new System.EventHandler(this.BtnReportRange_Click);
+            btnReportRange.Location = new System.Drawing.Point(230, 10);
+            btnReportRange.Name = "btnReportRange";
+            btnReportRange.Size = new System.Drawing.Size(100, 27);
+            btnReportRange.TabIndex = 2;
+            btnReportRange.Text = "Báo cáo";
+            btnReportRange.UseVisualStyleBackColor = true;
+            btnReportRange.Click += new System.EventHandler(BtnReportRange_Click);
             // 
             // dgvRangeReport
             // 
-            this.dgvRangeReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            dgvRangeReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                                           | System.Windows.Forms.AnchorStyles.Left)
                                           | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvRangeReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRangeReport.Location = new System.Drawing.Point(10, 50);
-            this.dgvRangeReport.Name = "dgvRangeReport";
-            this.dgvRangeReport.RowHeadersWidth = 51;
-            this.dgvRangeReport.Size = new System.Drawing.Size(360, 240);
-            this.dgvRangeReport.TabIndex = 3;
+            dgvRangeReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvRangeReport.Location = new System.Drawing.Point(10, 50);
+            dgvRangeReport.Name = "dgvRangeReport";
+            dgvRangeReport.RowHeadersWidth = 51;
+            dgvRangeReport.Size = new System.Drawing.Size(360, 240);
+            dgvRangeReport.TabIndex = 3;
             // 
             // DateRangeControl
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.Controls.Add(this.dtpFromDate);
-            this.Controls.Add(this.dtpToDate);
-            this.Controls.Add(this.btnReportRange);
-            this.Controls.Add(this.dgvRangeReport);
-            this.Name = "DateRangeControl";
-            this.Size = new System.Drawing.Size(380, 300);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRangeReport)).EndInit();
-            this.ResumeLayout(false);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            Controls.Add(dtpFromDate);
+            Controls.Add(dtpToDate);
+            Controls.Add(btnReportRange);
+            Controls.Add(dgvRangeReport);
+            Name = "DateRangeControl";
+            Size = new System.Drawing.Size(380, 300);
+            ((System.ComponentModel.ISupportInitialize)(dgvRangeReport)).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

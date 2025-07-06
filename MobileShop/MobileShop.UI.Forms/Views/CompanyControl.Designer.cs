@@ -29,185 +29,171 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-
+            //
             // Main layout
-            this.mainLayout = new TableLayoutPanel();
-            this.panelTop = new Panel();
-            this.lblTitle = new Label();
-            this.btnRefresh = new Button();
+            //
+            mainLayout = new TableLayoutPanel();
+            panelTop = new Panel();
+            lblTitle = new Label();
+            btnRefresh = new Button();
 
-            this.panelFilter = new Panel();
-            this.lblFilter = new Label();
-            this.txtFilter = new TextBox();
-            this.btnSearch = new Button();
+            panelFilter = new Panel();
+            lblFilter = new Label();
+            txtFilter = new TextBox();
+            btnSearch = new Button();
 
-            this.dataGridView1 = new DataGridView();
+            dataGridView1 = new DataGridView();
 
-            this.panelBottom = new Panel();
-            this.btnAdd = new Button();
-            this.btnEdit = new Button();
-            this.btnDelete = new Button();
-            this.btnClose = new Button();
-
+            panelBottom = new Panel();
+            btnAdd = new Button();
+            btnEdit = new Button();
+            btnDelete = new Button();
+            btnClose = new Button();
             // 
             // mainLayout
             // 
-            this.mainLayout.ColumnCount = 1;
-            this.mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            this.mainLayout.RowCount = 4;
-            this.mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));   // Top panel
-            this.mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));   // Filter panel
-            this.mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));   // DataGridView
-            this.mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 60F));   // Bottom panel
-            this.mainLayout.Dock = DockStyle.Fill;
-            this.mainLayout.Location = new System.Drawing.Point(0, 0);
-            this.mainLayout.Name = "mainLayout";
-            this.mainLayout.Size = new System.Drawing.Size(800, 450);
-            this.mainLayout.TabIndex = 0;
-
+            mainLayout.ColumnCount = 1;
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            mainLayout.RowCount = 4;
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));   // Top panel
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));   // Filter panel
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));   // DataGridView
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 60F));   // Bottom panel
+            mainLayout.Dock = DockStyle.Fill;
+            mainLayout.Location = new System.Drawing.Point(0, 0);
+            mainLayout.Name = "mainLayout";
+            mainLayout.Size = new System.Drawing.Size(800, 450);
+            mainLayout.TabIndex = 0;
             // 
             // panelTop
             // 
-            this.panelTop.Dock = DockStyle.Fill;
-            this.panelTop.Controls.Add(this.lblTitle);
-            this.panelTop.Controls.Add(this.btnRefresh);
-
+            panelTop.Dock = DockStyle.Fill;
+            panelTop.Controls.Add(lblTitle);
+            panelTop.Controls.Add(btnRefresh);
             // 
             // lblTitle
             // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.Location = new System.Drawing.Point(10, 13);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(204, 28);
-            this.lblTitle.Text = "Company Manager";
-
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            lblTitle.Location = new System.Drawing.Point(10, 13);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new System.Drawing.Size(204, 28);
+            lblTitle.Text = "Company Manager";
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.btnRefresh.Location = new System.Drawing.Point(700, 10);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(80, 30);
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-
+            btnRefresh.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnRefresh.Location = new System.Drawing.Point(700, 10);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new System.Drawing.Size(80, 30);
+            btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += new System.EventHandler(btnRefresh_Click);
             // 
             // panelFilter
             // 
-            this.panelFilter.Dock = DockStyle.Fill;
-            this.panelFilter.Controls.Add(this.lblFilter);
-            this.panelFilter.Controls.Add(this.txtFilter);
-            this.panelFilter.Controls.Add(this.btnSearch);
-
+            panelFilter.Dock = DockStyle.Fill;
+            panelFilter.Controls.Add(lblFilter);
+            panelFilter.Controls.Add(txtFilter);
+            panelFilter.Controls.Add(btnSearch);
             // 
             // lblFilter
             // 
-            this.lblFilter.AutoSize = true;
-            this.lblFilter.Location = new System.Drawing.Point(10, 12);
-            this.lblFilter.Name = "lblFilter";
-            this.lblFilter.Size = new System.Drawing.Size(97, 20);
-            this.lblFilter.Text = "Filter Name:";
-
+            lblFilter.AutoSize = true;
+            lblFilter.Location = new System.Drawing.Point(10, 12);
+            lblFilter.Name = "lblFilter";
+            lblFilter.Size = new System.Drawing.Size(97, 20);
+            lblFilter.Text = "Filter Name:";
             // 
             // txtFilter
             // 
-            this.txtFilter.Location = new System.Drawing.Point(110, 9);
-            this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(200, 27);
-
+            txtFilter.Location = new System.Drawing.Point(110, 9);
+            txtFilter.Name = "txtFilter";
+            txtFilter.Size = new System.Drawing.Size(200, 27);
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(320, 6);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(80, 30);
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-
+            btnSearch.Location = new System.Drawing.Point(320, 6);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new System.Drawing.Size(80, 30);
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += new System.EventHandler(btnSearch_Click);
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Dock = DockStyle.Fill;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
+            dataGridView1.Dock = DockStyle.Fill;
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             // 
             // panelBottom
             // 
-            this.panelBottom.Dock = DockStyle.Fill;
-            this.panelBottom.Controls.Add(this.btnAdd);
-            this.panelBottom.Controls.Add(this.btnEdit);
-            this.panelBottom.Controls.Add(this.btnDelete);
-            this.panelBottom.Controls.Add(this.btnClose);
-
+            panelBottom.Dock = DockStyle.Fill;
+            panelBottom.Controls.Add(btnAdd);
+            panelBottom.Controls.Add(btnEdit);
+            panelBottom.Controls.Add(btnDelete);
+            panelBottom.Controls.Add(btnClose);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(10, 15);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(80, 30);
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-
+            btnAdd.Location = new System.Drawing.Point(10, 15);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new System.Drawing.Size(80, 30);
+            btnAdd.Text = "Add";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += new System.EventHandler(btnAdd_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(100, 15);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(80, 30);
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-
+            btnEdit.Location = new System.Drawing.Point(100, 15);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new System.Drawing.Size(80, 30);
+            btnEdit.Text = "Edit";
+            btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += new System.EventHandler(btnEdit_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(190, 15);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(80, 30);
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-
+            btnDelete.Location = new System.Drawing.Point(190, 15);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new System.Drawing.Size(80, 30);
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += new System.EventHandler(btnDelete_Click);
             // 
             // btnClose
             // 
-            this.btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.btnClose.Location = new System.Drawing.Point(700, 15);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(80, 30);
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-
+            btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnClose.Location = new System.Drawing.Point(700, 15);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new System.Drawing.Size(80, 30);
+            btnClose.Text = "Close";
+            btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += new System.EventHandler(btnClose_Click);
             // 
             // CompanyControl
             // 
-            this.Controls.Add(this.mainLayout);
-            this.Name = "CompanyControl";
-            this.Size = new System.Drawing.Size(800, 450);
+            Controls.Add(mainLayout);
+            Name = "CompanyControl";
+            Size = new System.Drawing.Size(800, 450);
 
             // Add panels to layout
-            this.mainLayout.Controls.Add(this.panelTop, 0, 0);
-            this.mainLayout.Controls.Add(this.panelFilter, 0, 1);
-            this.mainLayout.Controls.Add(this.dataGridView1, 0, 2);
-            this.mainLayout.Controls.Add(this.panelBottom, 0, 3);
+            mainLayout.Controls.Add(panelTop, 0, 0);
+            mainLayout.Controls.Add(panelFilter, 0, 1);
+            mainLayout.Controls.Add(dataGridView1, 0, 2);
+            mainLayout.Controls.Add(panelBottom, 0, 3);
 
             // Perform layout
-            this.mainLayout.ResumeLayout(false);
-            this.panelTop.ResumeLayout(false);
-            this.panelTop.PerformLayout();
-            this.panelFilter.ResumeLayout(false);
-            this.panelFilter.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panelBottom.ResumeLayout(false);
-            this.ResumeLayout(false);
+            mainLayout.ResumeLayout(false);
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
+            panelFilter.ResumeLayout(false);
+            panelFilter.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(dataGridView1)).EndInit();
+            panelBottom.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

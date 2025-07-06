@@ -30,57 +30,57 @@ namespace MobileShop.UI.Forms.Views
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtSearchImei = new MaterialTextBox();
-            this.btnSearch = new MaterialButton();
-            this.dgvStock = new DataGridView();
-            this.lblStock = new MaterialLabel();
-            this.btnBuy = new MaterialButton();
+            txtSearchImei = new MaterialTextBox();
+            btnSearch = new MaterialButton();
+            dgvStock = new DataGridView();
+            lblStock = new MaterialLabel();
+            btnBuy = new MaterialButton();
             // 
             // txtSearchImei
             // 
-            this.txtSearchImei.Hint = "Search IMEI...";
-            this.txtSearchImei.Size = new System.Drawing.Size(300, 48);
-            this.txtSearchImei.Location = new System.Drawing.Point(24, 80);
+            txtSearchImei.Hint = "Search IMEI...";
+            txtSearchImei.Size = new System.Drawing.Size(300, 48);
+            txtSearchImei.Location = new System.Drawing.Point(24, 80);
             // 
             // btnSearch
             // 
-            this.btnSearch.Text = "Search";
-            this.btnSearch.AutoSize = true;
-            this.btnSearch.Location = new System.Drawing.Point(340, 80);
-            this.btnSearch.Click += BtnSearch_Click;
+            btnSearch.Text = "Search";
+            btnSearch.AutoSize = true;
+            btnSearch.Location = new System.Drawing.Point(340, 80);
+            btnSearch.Click += BtnSearch_Click;
             // 
             // dgvStock
             // 
-            this.dgvStock.Location = new System.Drawing.Point(24, 140);
-            this.dgvStock.Size = new System.Drawing.Size(740, 350);
-            this.dgvStock.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvStock.ReadOnly = true;
-            this.dgvStock.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            this.dgvStock.SelectionChanged += (s, e) => btnBuy.Enabled = dgvStock.SelectedRows.Count > 0;
+            dgvStock.Location = new System.Drawing.Point(24, 140);
+            dgvStock.Size = new System.Drawing.Size(740, 350);
+            dgvStock.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvStock.ReadOnly = true;
+            dgvStock.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvStock.SelectionChanged += (s, e) => btnBuy.Enabled = dgvStock.SelectedRows.Count > 0;
             // 
             // lblStock
             // 
-            this.lblStock.Text = "Stock: 0";
-            this.lblStock.AutoSize = true;
-            this.lblStock.Location = new System.Drawing.Point(24, 510);
+            lblStock.Text = "Stock: 0";
+            lblStock.AutoSize = true;
+            lblStock.Location = new System.Drawing.Point(24, 510);
             // 
             // btnBuy
             // 
-            this.btnBuy.Text = "Buy Selected";
-            this.btnBuy.AutoSize = true;
-            this.btnBuy.Location = new System.Drawing.Point(660, 504);
-            this.btnBuy.Enabled = false;
-            this.btnBuy.Click += BtnBuy_Click;
+            btnBuy.Text = "Buy Selected";
+            btnBuy.AutoSize = true;
+            btnBuy.Location = new System.Drawing.Point(660, 504);
+            btnBuy.Enabled = false;
+            btnBuy.Click += BtnBuy_Click;
             // 
             // PurchaseForm
             // 
-            this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.txtSearchImei);
-            this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.dgvStock);
-            this.Controls.Add(this.lblStock);
-            this.Controls.Add(this.btnBuy);
-            this.Text = "Purchase Phone";
+            ClientSize = new System.Drawing.Size(800, 600);
+            Controls.Add(txtSearchImei);
+            Controls.Add(btnSearch);
+            Controls.Add(dgvStock);
+            Controls.Add(lblStock);
+            Controls.Add(btnBuy);
+            Text = "Purchase Phone";
         }
 
         #endregion

@@ -28,94 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.usernameTxt = new System.Windows.Forms.TextBox();
-            this.passwordTxt = new System.Windows.Forms.TextBox();
-            this.employeeTxt = new System.Windows.Forms.TextBox();
-            this.addressTxt = new System.Windows.Forms.TextBox();
-            this.mobileTxt = new System.Windows.Forms.TextBox();
-            this.roleCbx = new System.Windows.Forms.ComboBox();
-            this.okBtn = new System.Windows.Forms.Button();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            usernameTxt = new System.Windows.Forms.TextBox();
+            passwordTxt = new System.Windows.Forms.TextBox();
+            employeeTxt = new System.Windows.Forms.TextBox();
+            addressTxt = new System.Windows.Forms.TextBox();
+            mobileTxt = new System.Windows.Forms.TextBox();
+            roleCbx = new System.Windows.Forms.ComboBox();
+            okBtn = new System.Windows.Forms.Button();
+            cancelBtn = new System.Windows.Forms.Button();
+            SuspendLayout();
             // 
             // usernameTxt
             // 
-            this.usernameTxt.Location = new System.Drawing.Point(20, 20);
-            this.usernameTxt.Name = "usernameTxt";
-            this.usernameTxt.PlaceholderText = "Username";
-            this.usernameTxt.Size = new System.Drawing.Size(200, 27);
+            usernameTxt.Location = new System.Drawing.Point(20, 20);
+            usernameTxt.Name = "usernameTxt";
+            usernameTxt.PlaceholderText = "Username";
+            usernameTxt.Size = new System.Drawing.Size(200, 27);
             // 
             // passwordTxt
             // 
-            this.passwordTxt.Location = new System.Drawing.Point(20, 60);
-            this.passwordTxt.Name = "passwordTxt";
-            this.passwordTxt.PlaceholderText = "Password";
-            this.passwordTxt.Size = new System.Drawing.Size(200, 27);
+            passwordTxt.Location = new System.Drawing.Point(20, 60);
+            passwordTxt.Name = "passwordTxt";
+            passwordTxt.PlaceholderText = "Password";
+            passwordTxt.Size = new System.Drawing.Size(200, 27);
             // 
             // employeeTxt
             // 
-            this.employeeTxt.Location = new System.Drawing.Point(20, 100);
-            this.employeeTxt.Name = "employeeTxt";
-            this.employeeTxt.PlaceholderText = "Employee Name";
-            this.employeeTxt.Size = new System.Drawing.Size(200, 27);
+            employeeTxt.Location = new System.Drawing.Point(20, 100);
+            employeeTxt.Name = "employeeTxt";
+            employeeTxt.PlaceholderText = "Employee Name";
+            employeeTxt.Size = new System.Drawing.Size(200, 27);
             // 
             // addressTxt
             // 
-            this.addressTxt.Location = new System.Drawing.Point(20, 140);
-            this.addressTxt.Name = "addressTxt";
-            this.addressTxt.PlaceholderText = "Address";
-            this.addressTxt.Size = new System.Drawing.Size(200, 27);
+            addressTxt.Location = new System.Drawing.Point(20, 140);
+            addressTxt.Name = "addressTxt";
+            addressTxt.PlaceholderText = "Address";
+            addressTxt.Size = new System.Drawing.Size(200, 27);
             // 
             // mobileTxt
             // 
-            this.mobileTxt.Location = new System.Drawing.Point(20, 180);
-            this.mobileTxt.Name = "mobileTxt";
-            this.mobileTxt.PlaceholderText = "Mobile Number";
-            this.mobileTxt.Size = new System.Drawing.Size(200, 27);
+            mobileTxt.Location = new System.Drawing.Point(20, 180);
+            mobileTxt.Name = "mobileTxt";
+            mobileTxt.PlaceholderText = "Mobile Number";
+            mobileTxt.Size = new System.Drawing.Size(200, 27);
             // 
             // roleCbx
             // 
-            this.roleCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.roleCbx.Items.AddRange(new object[] { "Admin", "Customer" });
-            this.roleCbx.Location = new System.Drawing.Point(20, 220);
-            this.roleCbx.Name = "roleCbx";
-            this.roleCbx.Size = new System.Drawing.Size(200, 28);
+            roleCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            roleCbx.Items.AddRange(new object[] { "Admin", "Customer" });
+            roleCbx.Location = new System.Drawing.Point(20, 220);
+            roleCbx.Name = "roleCbx";
+            roleCbx.Size = new System.Drawing.Size(200, 28);
             // 
             // okBtn
             // 
-            this.okBtn.Location = new System.Drawing.Point(20, 260);
-            this.okBtn.Name = "okBtn";
-            this.okBtn.Size = new System.Drawing.Size(90, 30);
-            this.okBtn.Text = "OK";
-            this.okBtn.UseVisualStyleBackColor = true;
-            this.okBtn.Click += new System.EventHandler(this.OkBtn_Click);
+            okBtn.Location = new System.Drawing.Point(20, 260);
+            okBtn.Name = "okBtn";
+            okBtn.Size = new System.Drawing.Size(90, 30);
+            okBtn.Text = "OK";
+            okBtn.UseVisualStyleBackColor = true;
+            okBtn.Click += new System.EventHandler(OkBtn_Click);
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(130, 260);
-            this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(90, 30);
-            this.cancelBtn.Text = "Cancel";
-            this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += (_, __) => this.DialogResult = DialogResult.Cancel;
+            cancelBtn.Location = new System.Drawing.Point(130, 260);
+            cancelBtn.Name = "cancelBtn";
+            cancelBtn.Size = new System.Drawing.Size(90, 30);
+            cancelBtn.Text = "Cancel";
+            cancelBtn.UseVisualStyleBackColor = true;
+            cancelBtn.Click += (_, __) => DialogResult = DialogResult.Cancel;
             // 
             // UserForm
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(244, 320);
-            this.Controls.Add(this.usernameTxt);
-            this.Controls.Add(this.passwordTxt);
-            this.Controls.Add(this.employeeTxt);
-            this.Controls.Add(this.addressTxt);
-            this.Controls.Add(this.mobileTxt);
-            this.Controls.Add(this.roleCbx);
-            this.Controls.Add(this.okBtn);
-            this.Controls.Add(this.cancelBtn);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "UserForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            ClientSize = new System.Drawing.Size(244, 320);
+            Controls.Add(usernameTxt);
+            Controls.Add(passwordTxt);
+            Controls.Add(employeeTxt);
+            Controls.Add(addressTxt);
+            Controls.Add(mobileTxt);
+            Controls.Add(roleCbx);
+            Controls.Add(okBtn);
+            Controls.Add(cancelBtn);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            Name = "UserForm";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

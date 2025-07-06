@@ -28,51 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblName = new Label();
-            this.txtName = new TextBox();
-            this.btnOK = new Button();
-            this.btnCancel = new Button();
-
+            lblName = new Label();
+            txtName = new TextBox();
+            btnOK = new Button();
+            btnCancel = new Button();
+            //
             // lblName
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(12, 15);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(110, 20);
-            this.lblName.Text = "Company Name:";
-
+            //
+            lblName.AutoSize = true;
+            lblName.Location = new System.Drawing.Point(12, 15);
+            lblName.Name = "lblName";
+            lblName.Size = new System.Drawing.Size(110, 20);
+            lblName.Text = "Company Name:";
+            //
             // txtName
-            this.txtName.Location = new System.Drawing.Point(130, 12);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(240, 27);
-
+            //
+            txtName.Location = new System.Drawing.Point(130, 12);
+            txtName.Name = "txtName";
+            txtName.Size = new System.Drawing.Size(240, 27);
+            //
             // btnOK
-            this.btnOK.Location = new System.Drawing.Point(130, 55);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(80, 30);
-            this.btnOK.Text = "OK";
-            this.btnOK.DialogResult = DialogResult.OK;
-            this.btnOK.Click += btnOK_Click;
-
+            //
+            btnOK.Location = new System.Drawing.Point(130, 55);
+            btnOK.Name = "btnOK";
+            btnOK.Size = new System.Drawing.Size(80, 30);
+            btnOK.Text = "OK";
+            btnOK.DialogResult = DialogResult.OK;
+            btnOK.Click += btnOK_Click;
+            //
             // btnCancel
-            this.btnCancel.Location = new System.Drawing.Point(230, 55);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(80, 30);
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.DialogResult = DialogResult.Cancel;
-
+            //
+            btnCancel.Location = new System.Drawing.Point(230, 55);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new System.Drawing.Size(80, 30);
+            btnCancel.Text = "Cancel";
+            btnCancel.DialogResult = DialogResult.Cancel;
+            //
             // CompanyForm
-            this.AcceptButton = this.btnOK;
-            this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(392, 100);
-            this.Controls.Add(this.lblName);
-            this.Controls.Add(this.txtName);
-            this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.btnCancel);
-            this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.StartPosition = FormStartPosition.CenterParent;
-            this.Text = "Company";
+            //
+            AcceptButton = btnOK;
+            CancelButton = btnCancel;
+            ClientSize = new System.Drawing.Size(392, 100);
+            Controls.Add(lblName);
+            Controls.Add(txtName);
+            Controls.Add(btnOK);
+            Controls.Add(btnCancel);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Company";
         }
 
         #endregion

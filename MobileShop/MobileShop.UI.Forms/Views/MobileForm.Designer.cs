@@ -28,117 +28,132 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblModel = new Label();
-            this.cboModel = new ComboBox();
-            this.lblImei = new Label();
-            this.txtImei = new TextBox();
-            this.lblStatus = new Label();
-            this.txtStatus = new TextBox();
-            this.lblWarranty = new Label();
-            this.dtpWarranty = new DateTimePicker();
-            this.lblPrice = new Label();
-            this.numPrice = new NumericUpDown();
-            this.lblStock = new Label();
-            this.numStock = new NumericUpDown();
-            this.btnOK = new Button();
-            this.btnCancel = new Button();
-
+            lblModel = new Label();
+            cboModel = new ComboBox();
+            lblImei = new Label();
+            txtImei = new TextBox();
+            lblStatus = new Label();
+            txtStatus = new TextBox();
+            lblWarranty = new Label();
+            dtpWarranty = new DateTimePicker();
+            lblPrice = new Label();
+            numPrice = new NumericUpDown();
+            lblStock = new Label();
+            numStock = new NumericUpDown();
+            btnOK = new Button();
+            btnCancel = new Button();
+            //
             // lblModel
-            this.lblModel.AutoSize = true;
-            this.lblModel.Location = new System.Drawing.Point(12, 15);
-            this.lblModel.Text = "Model:";
-
+            //
+            lblModel.AutoSize = true;
+            lblModel.Location = new System.Drawing.Point(12, 15);
+            lblModel.Text = "Model:";
+            //
             // cboModel
-            this.cboModel.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.cboModel.Location = new System.Drawing.Point(100, 12);
-            this.cboModel.Size = new System.Drawing.Size(250, 28);
-
+            //
+            cboModel.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboModel.Location = new System.Drawing.Point(100, 12);
+            cboModel.Size = new System.Drawing.Size(250, 28);
+            //
             // lblImei
-            this.lblImei.AutoSize = true;
-            this.lblImei.Location = new System.Drawing.Point(12, 55);
-            this.lblImei.Text = "IMEI:";
-
+            //
+            lblImei.AutoSize = true;
+            lblImei.Location = new System.Drawing.Point(12, 55);
+            lblImei.Text = "IMEI:";
+            //
             // txtImei
-            this.txtImei.Location = new System.Drawing.Point(100, 52);
-            this.txtImei.Size = new System.Drawing.Size(250, 27);
-
+            //
+            txtImei.Location = new System.Drawing.Point(100, 52);
+            txtImei.Size = new System.Drawing.Size(250, 27);
+            //
             // lblStatus
-            this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(12, 95);
-            this.lblStatus.Text = "Status:";
-
+            //
+            lblStatus.AutoSize = true;
+            lblStatus.Location = new System.Drawing.Point(12, 95);
+            lblStatus.Text = "Status:";
+            //
             // txtStatus
-            this.txtStatus.Location = new System.Drawing.Point(100, 92);
-            this.txtStatus.Size = new System.Drawing.Size(250, 27);
-
+            //
+            txtStatus.Location = new System.Drawing.Point(100, 92);
+            txtStatus.Size = new System.Drawing.Size(250, 27);
+            //
             // lblWarranty
-            this.lblWarranty.AutoSize = true;
-            this.lblWarranty.Location = new System.Drawing.Point(12, 135);
-            this.lblWarranty.Text = "Warranty Until:";
-
+            //
+            lblWarranty.AutoSize = true;
+            lblWarranty.Location = new System.Drawing.Point(12, 135);
+            lblWarranty.Text = "Warranty Until:";
+            //
             // dtpWarranty
-            this.dtpWarranty.Format = DateTimePickerFormat.Short;
-            this.dtpWarranty.Location = new System.Drawing.Point(130, 132);
-            this.dtpWarranty.Size = new System.Drawing.Size(120, 27);
-
+            //
+            dtpWarranty.Format = DateTimePickerFormat.Short;
+            dtpWarranty.Location = new System.Drawing.Point(130, 132);
+            dtpWarranty.Size = new System.Drawing.Size(120, 27);
+            //
             // lblPrice
-            this.lblPrice.AutoSize = true;
-            this.lblPrice.Location = new System.Drawing.Point(12, 175);
-            this.lblPrice.Text = "Price:";
-
+            //
+            lblPrice.AutoSize = true;
+            lblPrice.Location = new System.Drawing.Point(12, 175);
+            lblPrice.Text = "Price:";
+            //
             // numPrice
-            this.numPrice.Location = new System.Drawing.Point(100, 172);
-            this.numPrice.DecimalPlaces = 2;
-            this.numPrice.Maximum = 1000000000;
-            this.numPrice.Size = new System.Drawing.Size(120, 27);
-
+            //
+            numPrice.Location = new System.Drawing.Point(100, 172);
+            numPrice.DecimalPlaces = 2;
+            numPrice.Maximum = 1000000000;
+            numPrice.Size = new System.Drawing.Size(120, 27);
+            //
             // lblStock
-            this.lblStock.AutoSize = true;
-            this.lblStock.Location = new System.Drawing.Point(12, 215);
-            this.lblStock.Text = "Price:";
-
+            //
+            lblStock.AutoSize = true;
+            lblStock.Location = new System.Drawing.Point(12, 215);
+            lblStock.Text = "Price:";
+            //
             // numStock
-            this.numStock.Location = new System.Drawing.Point(100, 212);
-            this.numStock.DecimalPlaces = 2;
-            this.numStock.Maximum = 1000000000;
-            this.numStock.Size = new System.Drawing.Size(120, 27);
-
+            //
+            numStock.Location = new System.Drawing.Point(100, 212);
+            numStock.DecimalPlaces = 2;
+            numStock.Maximum = 1000000000;
+            numStock.Size = new System.Drawing.Size(120, 27);
+            //
             // btnOK
-            this.btnOK.Location = new System.Drawing.Point(100, 255);
-            this.btnOK.Size = new System.Drawing.Size(80, 30);
-            this.btnOK.Text = "OK";
-            this.btnOK.DialogResult = DialogResult.OK;
-            this.btnOK.Click += btnOK_Click;
-
+            //
+            btnOK.Location = new System.Drawing.Point(100, 255);
+            btnOK.Size = new System.Drawing.Size(80, 30);
+            btnOK.Text = "OK";
+            btnOK.DialogResult = DialogResult.OK;
+            btnOK.Click += btnOK_Click;
+            //
             // btnCancel
-            this.btnCancel.Location = new System.Drawing.Point(200, 255);
-            this.btnCancel.Size = new System.Drawing.Size(80, 30);
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.DialogResult = DialogResult.Cancel;
-
+            //
+            btnCancel.Location = new System.Drawing.Point(200, 255);
+            btnCancel.Size = new System.Drawing.Size(80, 30);
+            btnCancel.Text = "Cancel";
+            btnCancel.DialogResult = DialogResult.Cancel;
+            //
             // MobileForm
-            this.AcceptButton = this.btnOK;
-            this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(380, 300);
-            this.Controls.Add(this.lblModel);
-            this.Controls.Add(this.cboModel);
-            this.Controls.Add(this.lblImei);
-            this.Controls.Add(this.txtImei);
-            this.Controls.Add(this.lblStatus);
-            this.Controls.Add(this.txtStatus);
-            this.Controls.Add(this.lblWarranty);
-            this.Controls.Add(this.dtpWarranty);
-            this.Controls.Add(this.lblPrice);
-            this.Controls.Add(this.numPrice);
-            this.Controls.Add(this.lblStock);
-            this.Controls.Add(this.numStock);
-            this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.btnCancel);
-            this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.StartPosition = FormStartPosition.CenterParent;
-            this.Text = "Mobile";
+            //
+            AcceptButton = btnOK;
+            CancelButton = btnCancel;
+            ClientSize = new System.Drawing.Size(380, 300);
+            Controls.Add(lblModel);
+            Controls.Add(cboModel);
+            Controls.Add(lblImei);
+            Controls.Add(txtImei);
+            Controls.Add(lblStatus);
+            Controls.Add(txtStatus);
+            Controls.Add(lblWarranty);
+            Controls.Add(dtpWarranty);
+            Controls.Add(lblPrice);
+            Controls.Add(numPrice);
+            Controls.Add(lblStock);
+            Controls.Add(numStock);
+            Controls.Add(btnOK);
+            Controls.Add(btnCancel);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Mobile";
         }
 
         #endregion
