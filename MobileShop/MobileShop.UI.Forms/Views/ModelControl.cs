@@ -28,7 +28,7 @@ namespace MobileShop.UI.Forms.Views
             using var da = new SqlDataAdapter(
                 filter == ""
                 ? "SELECT * FROM tbl_Model"
-                : "SELECT * FROM tbl_Model WHERE ModelName LIKE @f",
+                : "SELECT * FROM tbl_Model WHERE ModelNum LIKE @f",
                 conn);
             if (filter != "")
                 da.SelectCommand.Parameters.AddWithValue("@f", $"%{filter}%");

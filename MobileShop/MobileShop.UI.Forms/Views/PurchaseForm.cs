@@ -62,5 +62,11 @@ namespace MobileShop.UI.Forms.Views
                 if (dlg.ShowDialog() == DialogResult.OK)
                     BtnSearch_Click(null, null);
         }
+        
+        private void BtnLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new LoginForm().Show();
+        }
     }
 }

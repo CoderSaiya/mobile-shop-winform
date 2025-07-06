@@ -57,21 +57,20 @@ namespace MobileShop.UI.Forms.Views
             if (_isEdit)
             {
                 cmd.CommandText = @"
-                    UPDATE tbl_User
-                       SET EmployeeName = @emp,
-                           Address      = @addr,
-                           MobileNumber = @mob,
-                           Role         = @role
-                     WHERE Username      = @u";
-                cmd.Parameters.AddWithValue("@u", usernameTxt.Text.Trim());
+                UPDATE tbl_User
+                   SET EmployeeName = @emp,
+                       Address      = @addr,
+                       MobileNumber = @mob,
+                       Role         = @role
+                 WHERE Username      = @u";
             }
             else
             {
                 string defaultHash = HashHelper.ComputeSha256Hash("123456");
                 cmd.CommandText = @"
-                    INSERT INTO tbl_User
-                               (Username, PWO, EmployeeName, Address, MobileNumber, Role)
-                    VALUES (@u, @p, @emp, @addr, @mob, @role)";
+                INSERT INTO tbl_User
+                           (Username, PWO, EmployeeName, Address, MobileNumber, Role)
+                VALUES (@u, @p, @emp, @addr, @mob, @role)";
                 cmd.Parameters.AddWithValue("@p", defaultHash);
             }
 

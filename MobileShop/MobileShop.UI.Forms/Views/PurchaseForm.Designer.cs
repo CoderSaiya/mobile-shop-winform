@@ -32,6 +32,7 @@ namespace MobileShop.UI.Forms.Views
         {
             txtSearchImei = new MaterialTextBox();
             btnSearch = new MaterialButton();
+            btnLogout = new MaterialButton();
             dgvStock = new DataGridView();
             lblStock = new MaterialLabel();
             btnBuy = new MaterialButton();
@@ -48,6 +49,13 @@ namespace MobileShop.UI.Forms.Views
             btnSearch.AutoSize = true;
             btnSearch.Location = new System.Drawing.Point(340, 80);
             btnSearch.Click += BtnSearch_Click;
+            // 
+            // btnLogout
+            // 
+            btnLogout.Text = "Logout";
+            btnLogout.AutoSize = true;
+            btnLogout.Location = new System.Drawing.Point(440, 80);
+            btnLogout.Click += BtnLogout_Click;
             // 
             // dgvStock
             // 
@@ -77,6 +85,7 @@ namespace MobileShop.UI.Forms.Views
             ClientSize = new System.Drawing.Size(800, 600);
             Controls.Add(txtSearchImei);
             Controls.Add(btnSearch);
+            Controls.Add(btnLogout);
             Controls.Add(dgvStock);
             Controls.Add(lblStock);
             Controls.Add(btnBuy);
@@ -87,6 +96,7 @@ namespace MobileShop.UI.Forms.Views
 
         private MaterialTextBox txtSearchImei;
         private MaterialButton btnSearch;
+        private MaterialButton btnLogout;
         private DataGridView dgvStock;
         private MaterialLabel lblStock;
         private MaterialButton btnBuy;

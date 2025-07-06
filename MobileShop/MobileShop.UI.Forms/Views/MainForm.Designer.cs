@@ -257,6 +257,7 @@ partial class MainForm
         logoutTab.TabIndex = 1;
         logoutTab.Text = "Logout";
         logoutTab.UseVisualStyleBackColor = false;
+        logoutTab.Click += logoutTab_Click;
         // 
         // contentPanel
         // 
