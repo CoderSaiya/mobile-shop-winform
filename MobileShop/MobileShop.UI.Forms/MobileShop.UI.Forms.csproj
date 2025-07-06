@@ -10,7 +10,6 @@
 
     <ItemGroup>
       <Folder Include="Resources\" />
-      <Folder Include="ViewModels\" />
     </ItemGroup>
 
     <ItemGroup>
@@ -36,8 +35,17 @@
 
     <ItemGroup>
       <PackageReference Include="ComponentFactory.Krypton.Toolkit" Version="1.0.0" />
+      <PackageReference Include="Jenga.NET" Version="4.0.0" />
+      <PackageReference Include="Kimtoo.BindingProvider" Version="1.2.7" />
+      <PackageReference Include="Kimtoo.NavigationMenu" Version="1.0.2" />
       <PackageReference Include="Krypton" Version="2.0.0" />
       <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.6" />
     </ItemGroup>
 
 </Project>
