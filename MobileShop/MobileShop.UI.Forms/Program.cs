@@ -1,4 +1,6 @@
-using Krypton.Toolkit;
+﻿using Microsoft.Data.SqlClient;
+using MobileShop.UI.Forms.Helpers;
+using MobileShop.UI.Forms.Views;
 
 namespace MobileShop.UI.Forms;
 
@@ -10,9 +12,25 @@ static class Program
     [STAThread]
     static void Main()
     {
-        // To customize application configuration such as set high DPI settings or default font,
-        // see https://aka.ms/applicationconfiguration.
         ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
+
+        try
+        {
+            using var conn = DbHelper.GetConnection();
+            conn.Open();
+            Console.WriteLine("Database connected!");
+        }
+        catch (SqlException ex)
+        {
+            MessageBox.Show(
+                "Không thể kết nối cơ sở dữ liệu:\n" + ex.Message,
+                "Lỗi kết nối",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error
+            );
+            return;
+        }
+
+        Application.Run(new LoginForm());
     }
 }
