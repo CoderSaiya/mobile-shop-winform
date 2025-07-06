@@ -101,6 +101,7 @@ namespace MobileShop.UI.Forms.Views
             registerBtn.StateCommon.Content.ShortText.MultiLineH = PaletteRelativeAlign.Center;
             registerBtn.TabIndex = 17;
             registerBtn.Values.Text = "Đăng ký";
+            registerBtn.Click += RegisterBtn_Click;
             // 
             // passConfirmTxt
             // 

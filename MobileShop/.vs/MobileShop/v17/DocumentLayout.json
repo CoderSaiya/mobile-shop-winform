@@ -1,0 +1,790 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\purchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\purchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\companycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\companycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\purchaseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\purchaseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\confirmpurchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\confirmpurchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\viewmodels\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\viewmodels\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\confirmpurchaseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\confirmpurchaseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\purchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\purchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\mobileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mobileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\mobileform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mobileform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\mobilecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mobilecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\mobilecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mobilecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\confirmpurchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\confirmpurchaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\userform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\userform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\userscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\userscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\mobileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mobileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\userscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\userscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\bydatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\bydatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\bydatetodatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\bydatetodatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\modelcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\modelcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\userscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\userscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\helpers\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\helpers\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\bydatecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\bydatecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\bydatetodatecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\bydatetodatecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\bydatetodatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\bydatetodatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\bydatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\bydatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\mobilecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\mobilecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\companycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\companycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\modelform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\modelform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\modelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\modelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\modelcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\modelcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\companycontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\companycontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\mobileshop.ui.forms\\views\\modelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\modelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|c:\\users\\admin\\documents\\workspace\\projectnet\\git\\mobile-shop-winform\\mobileshop\\mobileshop.ui.forms\\views\\companyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA169381-D8EB-4563-BC6C-A82C1D1BC182}|MobileShop.UI.Forms\\MobileShop.UI.Forms.csproj|solutionrelative:mobileshop.ui.forms\\views\\companyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerInfo.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\ViewModels\\CustomerInfo.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\ViewModels\\CustomerInfo.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\ViewModels\\CustomerInfo.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\ViewModels\\CustomerInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T06:28:15.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmPurchaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wFwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:41:49.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PurchaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\PurchaseForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\PurchaseForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\PurchaseForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\PurchaseForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T16:03:46.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\PurchaseForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\PurchaseForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\PurchaseForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\PurchaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T16:02:51.664Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PurchaseForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\PurchaseForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\PurchaseForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\PurchaseForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\PurchaseForm.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwFwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T16:03:17.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\CompanyControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyControl.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\CompanyControl.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:17:22.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfirmPurchaseForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.Designer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwD8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:41:32.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConfirmPurchaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ConfirmPurchaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:41:25.364Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MobileForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MobileForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MobileForm.Designer.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowGQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:48:20.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MobileControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MobileControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileControl.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MobileControl.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:49:19.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MobileControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileControl.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MobileControl.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileControl.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MobileControl.Designer.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAiwJQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:22:02.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\LoginForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\LoginForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\LoginForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:24:22.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Program.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Program.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:14:36.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MobileForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MobileForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MobileForm.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwFYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:48:40.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\LoginForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAIwH8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:19:26.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MobileForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MobileForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MobileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:25:03.513Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UserForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\UserForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UserForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\UserForm.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:59:59.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UsersControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\UsersControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UsersControl.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\UsersControl.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:38:49.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UserForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\UserForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UserForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\UserForm.Designer.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:00:08.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UserForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\UserForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UserForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:08:26.345Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MainForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MainForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MainForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:20:35.762Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MainForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MainForm.Designer.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAtwCgBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:15:55.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MainForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MainForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MainForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MainForm.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv1UAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:19:13.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsersControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UsersControl.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\UsersControl.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UsersControl.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\UsersControl.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowC8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:39:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ByDateControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ByDateControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateControl.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ByDateControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:16:04.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ByDateToDateControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:45:15.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModelControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ModelControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelControl.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ModelControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:17:19.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HashHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Helpers\\HashHelper.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Helpers\\HashHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Helpers\\HashHelper.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Helpers\\HashHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:35:43.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Helpers\\DbHelper.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Helpers\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Helpers\\DbHelper.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Helpers\\DbHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:36:45.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UsersControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UsersControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\UsersControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\UsersControl.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\UsersControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T02:38:59.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ByDateControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateControl.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ByDateControl.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateControl.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ByDateControl.Designer.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:13:27.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ByDateToDateControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateToDateControl.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ByDateToDateControl.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateToDateControl.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ByDateToDateControl.Designer.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwF0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:44:25.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ByDateToDateControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ByDateToDateControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:44:21.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ByDateControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ByDateControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ByDateControl.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ByDateControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:14:02.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CompanyForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\CompanyForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\CompanyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:34:59.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MobileControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\MobileControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\MobileControl.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\MobileControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:25:00.202Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\LoginForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\LoginForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:23:52.132Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T04:01:22.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CompanyControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyControl.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\CompanyControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyControl.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\CompanyControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:25:17.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ModelForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ModelForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ModelForm.Designer.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwEQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:42:19.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CompanyControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyControl.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\CompanyControl.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyControl.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\CompanyControl.Designer.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAlwJAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:16:39.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ModelForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ModelForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ModelForm.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwF4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:42:58.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ModelForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ModelForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelForm.cs [Design]",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ModelForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:41:59.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ModelControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelControl.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\ModelControl.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\ModelControl.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\ModelControl.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:16:54.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CompanyForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyForm.Designer.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\CompanyForm.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyForm.Designer.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\CompanyForm.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwDUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:35:06.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CompanyForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyForm.cs",
+              "RelativeDocumentMoniker": "MobileShop.UI.Forms\\Views\\CompanyForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\WorkSpace\\ProjectNET\\git\\mobile-shop-winform\\MobileShop\\MobileShop.UI.Forms\\Views\\CompanyForm.cs",
+              "RelativeToolTip": "MobileShop.UI.Forms\\Views\\CompanyForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:35:27.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAKUJAAAAAAAAAAAMwIEJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-02T15:15:36.462Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
