@@ -3,12 +3,7 @@ using MaterialSkin.Controls;
 using Microsoft.Data.SqlClient;
 using MobileShop.UI.Forms.Helpers;
 using MobileShop.UI.Forms.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Text.RegularExpressions;
-using System.Xml.Linq;
 
 namespace MobileShop.UI.Forms.Views
 {
@@ -117,16 +112,26 @@ namespace MobileShop.UI.Forms.Views
                 cmd.Parameters.AddWithValue("@address", (object)c.Address ?? DBNull.Value);
                 custId = Convert.ToInt32(cmd.ExecuteScalar());
             }
-
-            // Update stock
+            
+            // kiểm tra điện nào đang có sẵn
             using (var cmd = new SqlCommand(
-                "UPDATE tbl_Mobile SET Stock = Stock - 1 WHERE IMEINO = @imei AND Stock > 0",
-                conn, tran))
+                       "SELECT COUNT(*) FROM tbl_Mobile WHERE IMEINO = @imei AND Status = 'Available'",
+                       conn, tran))
             {
                 cmd.Parameters.AddWithValue("@imei", imei);
-                if (cmd.ExecuteNonQuery() == 0)
-                    throw new InvalidOperationException("Không đủ hàng trong kho hoặc IMEI không tồn tại.");
+                if ((int)cmd.ExecuteScalar() == 0)
+                    throw new InvalidOperationException("This phone has already been sold or does not exist.");
             }
+
+            // Cập nhập trạng thái
+            using (var cmd = new SqlCommand(
+                       "UPDATE tbl_Mobile SET Status = 'Sold' WHERE IMEINO = @imei",
+                       conn, tran))
+            {
+                cmd.Parameters.AddWithValue("@imei", imei);
+                cmd.ExecuteNonQuery();
+            }
+
 
             // Insert sale
             using (var cmd = new SqlCommand(

@@ -40,6 +40,7 @@ partial class LoginForm
         loginBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
         kryptonLabel1 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
         label4 = new Label();
+        label5 = new Label();
         registLbl = new Label();
         pictureBox1 = new PictureBox();
         exitBox = new PictureBox();
@@ -105,6 +106,7 @@ partial class LoginForm
         passTxt.StateCommon.Content.Color1 = Color.Black;
         passTxt.StateCommon.Content.Font = new Font("Cambria", 10.2F);
         passTxt.TabIndex = 7;
+        passTxt.UseSystemPasswordChar = true;
         // 
         // loginBtn
         // 
@@ -145,6 +147,18 @@ partial class LoginForm
         label4.Size = new Size(175, 20);
         label4.TabIndex = 10;
         label4.Text = "Bạn chưa có tài khoản?";
+        // 
+        // label5
+        // 
+        label5.AutoSize = true;
+        label5.Font = new Font("Cambria", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        label5.ForeColor = Color.FromArgb(64, 64, 64);
+        label5.Location = new Point(741, 485);
+        label5.Name = "label5";
+        label5.Size = new Size(175, 20);
+        label5.TabIndex = 10;
+        label5.Text = "Xem danh sách thành viên";
+        label5.Click += label5_Click;
         // 
         // registLbl
         // 
@@ -188,6 +202,7 @@ partial class LoginForm
         Controls.Add(pictureBox1);
         Controls.Add(registLbl);
         Controls.Add(label4);
+        Controls.Add(label5);
         Controls.Add(kryptonLabel1);
         Controls.Add(loginBtn);
         Controls.Add(passTxt);
@@ -215,6 +230,7 @@ partial class LoginForm
     private ComponentFactory.Krypton.Toolkit.KryptonButton loginBtn;
     private ComponentFactory.Krypton.Toolkit.KryptonLabel kryptonLabel1;
     private Label label4;
+    private Label label5;
     private Label registLbl;
     private PictureBox pictureBox1;
     private PictureBox exitBox;

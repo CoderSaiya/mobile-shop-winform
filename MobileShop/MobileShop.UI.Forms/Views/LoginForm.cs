@@ -97,4 +97,16 @@ public partial class LoginForm : Form
     {
         Environment.Exit(0);
     }
+    
+    private void label5_Click(object sender, EventArgs e)
+    {
+        var memberForm = new MemberForm();
+
+        memberForm.FormClosed += (s, args) =>
+        {
+            this.Show();
+        };
+
+        memberForm.Show();
+    }
 }

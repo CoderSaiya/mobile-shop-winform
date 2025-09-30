@@ -30,51 +30,62 @@ namespace MobileShop.UI.Forms.Views
         /// </summary>
         private void InitializeComponent()
         {
-            Text = "Confirm Purchase";
-            ClientSize = new System.Drawing.Size(400, 800);
-            //
-            // Info label
-            //
+            // Form size and padding
+            ClientSize = new Size(450, 600);
+            Padding = new Padding(20);
+
+            // Info Label
             lblInfo = new MaterialLabel
             {
                 Text = $"IMEI: {_imei}  –  Model: {_model}  –  Price: {_price:C}",
-                Location = new System.Drawing.Point(24, 80),
+                Location = new Point(20, 90),
                 AutoSize = true
             };
+
+            // Vertical spacing
+            int top = 130;
+            int spacing = 80;
             //
-            // Customer Name
+            // lblName
             //
-            var lblName = new MaterialLabel { Text = "Customer Name:", Location = new System.Drawing.Point(24, 350), AutoSize = true };
-            txtName = new MaterialTextBox { Hint = "Enter full name", Location = new System.Drawing.Point(24, 380), Size = new System.Drawing.Size(350, 48) };
+            var lblName = new MaterialLabel { Text = "Customer Name:", Location = new Point(20, top), AutoSize = true };
+            txtName = new MaterialTextBox { Hint = "Enter full name", Location = new Point(20, top + 25), Size = new Size(360, 48) };
+            top += spacing + 10;
             //
-            // Mobile Number
+            // lblMobile
             //
-            var lblMobile = new MaterialLabel { Text = "Mobile Number:", Location = new System.Drawing.Point(24, 440), AutoSize = true };
-            txtMobile = new MaterialTextBox { Hint = "+1234567890 or 0123456789", Location = new System.Drawing.Point(24, 470), Size = new System.Drawing.Size(350, 48) };
+            var lblMobile = new MaterialLabel { Text = "Mobile Number:", Location = new Point(20, top), AutoSize = true };
+            txtMobile = new MaterialTextBox { Hint = "+1234567890 or 0123456789", Location = new Point(20, top + 25), Size = new Size(360, 48) };
+            top += spacing + 10;
             //
-            // Email
+            // lblEmail
             //
-            var lblEmail = new MaterialLabel { Text = "Email:", Location = new System.Drawing.Point(24, 530), AutoSize = true };
-            txtEmail = new MaterialTextBox { Hint = "email@example.com", Location = new System.Drawing.Point(24, 560), Size = new System.Drawing.Size(350, 48) };
+            var lblEmail = new MaterialLabel { Text = "Email:", Location = new Point(20, top), AutoSize = true };
+            txtEmail = new MaterialTextBox { Hint = "email@example.com", Location = new Point(20, top + 25), Size = new Size(360, 48) };
+            top += spacing + 10;
             //
-            // Address
+            // lblAddress
             //
-            var lblAddress = new MaterialLabel { Text = "Address:", Location = new System.Drawing.Point(24, 620), AutoSize = true };
-            txtAddress = new MaterialTextBox { Hint = "Customer address", Location = new System.Drawing.Point(24, 650), Size = new System.Drawing.Size(350, 48) };
+            var lblAddress = new MaterialLabel { Text = "Address:", Location = new Point(20, top), AutoSize = true };
+            txtAddress = new MaterialTextBox { Hint = "Customer address", Location = new Point(20, top + 25), Size = new Size(360, 48) };
+            top += spacing + 20;
             //
-            // Buttons
+            // btnCancel
             //
-            btnCancel = new MaterialButton { Text = "Cancel", AutoSize = true, Location = new System.Drawing.Point(200, 720) };
+            btnCancel = new MaterialButton { Text = "Cancel", Location = new Point(200, top), AutoSize = true };
             btnCancel.Click += btnCancel_Click;
-            btnConfirm = new MaterialButton { Text = "Confirm", AutoSize = true, Location = new System.Drawing.Point(300, 720) };
+            //
+            // btnConfirm
+            //
+            btnConfirm = new MaterialButton { Text = "Confirm", Location = new Point(290, top), AutoSize = true };
             btnConfirm.Click += btnConfirm_Click;
-            
+
             // Add to form
             Controls.AddRange(new Control[] {
                 lblInfo,
                 lblName, txtName,
                 lblMobile, txtMobile,
-                lblEmail,  txtEmail,
+                lblEmail, txtEmail,
                 lblAddress, txtAddress,
                 btnCancel, btnConfirm
             });

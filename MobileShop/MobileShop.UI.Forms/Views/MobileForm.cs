@@ -9,8 +9,8 @@ namespace MobileShop.UI.Forms.Views
         private readonly string? _originalImei;
 
         public MobileForm(string? imei = null, int? currentModelId = null,
-                          string status = "", DateTime? warranty = null,
-                          decimal price = 0)
+            DateTime? warranty = null,
+            decimal price = 0, string? name = null, string? imagePath = null)
         {
             InitializeComponent();
             LoadModels();
@@ -22,9 +22,16 @@ namespace MobileShop.UI.Forms.Views
                 txtImei.Text = imei;
                 txtImei.Enabled = false;
                 cboModel.SelectedValue = currentModelId;
-                txtStatus.Text = status;
                 dtpWarranty.Value = warranty ?? DateTime.Today;
                 numPrice.Value = price;
+                txtName.Text = name;
+                if (!string.IsNullOrEmpty(imagePath))
+                {
+                    var file = Path.GetFileName(imagePath);
+                    picMobile.Tag = file;
+                    var full = Path.Combine(Application.StartupPath, "Resources", file);
+                    if (File.Exists(full)) picMobile.Image = Image.FromFile(full);
+                }
             }
             else
             {
@@ -34,13 +41,28 @@ namespace MobileShop.UI.Forms.Views
 
         private void LoadModels()
         {
-            var dt = new DataTable();
+            var dt = new System.Data.DataTable();
             using var conn = DbHelper.GetConnection();
             using var da = new SqlDataAdapter("SELECT ModelId, ModelNum FROM tbl_Model", conn);
             da.Fill(dt);
-            cboModel.DataSource = dt;
             cboModel.DisplayMember = "ModelNum";
             cboModel.ValueMember = "ModelId";
+            cboModel.DataSource = dt;
+        }
+        
+        private void BtnBrowse_Click(object sender, EventArgs e)
+        {
+            using var dlg = new OpenFileDialog { Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp" };
+            if (dlg.ShowDialog() != DialogResult.OK) return;
+
+            var resources = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+            Directory.CreateDirectory(resources);
+            var fileNameOnly = Path.GetFileName(dlg.FileName);
+            var dest = Path.Combine(resources, fileNameOnly);
+            File.Copy(dlg.FileName, dest, true);
+            picMobile.Image = Image.FromFile(dest);
+            picMobile.Tag = fileNameOnly;
+            picMobile.ImageLocation = dest;
         }
 
         private void btnOK_Click(object sender, EventArgs e)
@@ -53,16 +75,16 @@ namespace MobileShop.UI.Forms.Views
             }
             var modelId = (int)cboModel.SelectedValue;
             var imei = txtImei.Text.Trim();
-            if (string.IsNullOrEmpty(imei) || imei.Length != 15)
+            if (imei.Length != 15)
             {
                 MessageBox.Show("Please enter a 15‑digit IMEI.");
                 DialogResult = DialogResult.None;
                 return;
             }
-            var status = txtStatus.Text.Trim();
             var warranty = dtpWarranty.Value.Date;
             var price = numPrice.Value;
-            var stock = numStock.Value;
+            var name = txtName.Text.Trim();
+            var imageFile = picMobile.Tag as string;
 
             using var conn = DbHelper.GetConnection();
             using var cmd = conn.CreateCommand();
@@ -70,27 +92,25 @@ namespace MobileShop.UI.Forms.Views
             {
                 cmd.CommandText = @"
                     UPDATE tbl_Mobile
-                       SET ModelId = @m,
-                           Status = @s,
-                           Warranty= @w,
-                           Price = @p,
-                           Stock = @st
-                     WHERE IMEINo  = @i";
+                       SET ModelId=@m, Warranty=@w, Price=@p, Name=@n, Image=@img
+                     WHERE IMEINo=@i";
                 cmd.Parameters.AddWithValue("@i", _originalImei);
             }
             else
             {
                 cmd.CommandText = @"
-                    INSERT INTO tbl_Mobile
-                           (ModelId, IMEINo, Status, Warranty, Price, Stock)
-                    VALUES (@m, @i, @s, @w, @p, @st)";
+                    INSERT INTO tbl_Mobile(ModelId, IMEINo, Warranty, Price, Name, Image)
+                    VALUES(@m,@i,@w,@p,@n,@img)";
                 cmd.Parameters.AddWithValue("@i", imei);
             }
             cmd.Parameters.AddWithValue("@m", modelId);
-            cmd.Parameters.AddWithValue("@s", status);
             cmd.Parameters.AddWithValue("@w", warranty);
             cmd.Parameters.AddWithValue("@p", price);
-            cmd.Parameters.AddWithValue("@st", stock);
+            cmd.Parameters.AddWithValue("@n", name);
+            if (string.IsNullOrEmpty(imageFile))
+                cmd.Parameters.Add("@img", SqlDbType.NVarChar, 256).Value = DBNull.Value;
+            else
+                cmd.Parameters.Add("@img", SqlDbType.NVarChar, 256).Value = imageFile;
 
             conn.Open();
             try
@@ -99,8 +119,7 @@ namespace MobileShop.UI.Forms.Views
             }
             catch (SqlException ex) when (ex.Number == 2627)
             {
-                MessageBox.Show("This IMEI already exists.", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("This IMEI already exists.");
                 DialogResult = DialogResult.None;
             }
         }

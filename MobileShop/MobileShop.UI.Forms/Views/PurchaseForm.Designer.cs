@@ -30,75 +30,73 @@ namespace MobileShop.UI.Forms.Views
         /// </summary>
         private void InitializeComponent()
         {
-            txtSearchImei = new MaterialTextBox();
-            btnSearch = new MaterialButton();
-            btnLogout = new MaterialButton();
-            dgvStock = new DataGridView();
-            lblStock = new MaterialLabel();
-            btnBuy = new MaterialButton();
-            // 
+            this.components = new System.ComponentModel.Container();
+            this.Text = "Danh sách điện thoại";
+            this.Size = new System.Drawing.Size(900, 600);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            //
             // txtSearchImei
-            // 
-            txtSearchImei.Hint = "Search IMEI...";
-            txtSearchImei.Size = new System.Drawing.Size(300, 48);
-            txtSearchImei.Location = new System.Drawing.Point(24, 80);
-            // 
-            // btnSearch
-            // 
-            btnSearch.Text = "Search";
-            btnSearch.AutoSize = true;
-            btnSearch.Location = new System.Drawing.Point(340, 80);
-            btnSearch.Click += BtnSearch_Click;
-            // 
-            // btnLogout
-            // 
-            btnLogout.Text = "Logout";
-            btnLogout.AutoSize = true;
-            btnLogout.Location = new System.Drawing.Point(440, 80);
-            btnLogout.Click += BtnLogout_Click;
-            // 
-            // dgvStock
-            // 
-            dgvStock.Location = new System.Drawing.Point(24, 140);
-            dgvStock.Size = new System.Drawing.Size(740, 350);
-            dgvStock.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvStock.ReadOnly = true;
-            dgvStock.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvStock.SelectionChanged += (s, e) => btnBuy.Enabled = dgvStock.SelectedRows.Count > 0;
-            // 
-            // lblStock
-            // 
-            lblStock.Text = "Stock: 0";
-            lblStock.AutoSize = true;
-            lblStock.Location = new System.Drawing.Point(24, 510);
-            // 
-            // btnBuy
-            // 
-            btnBuy.Text = "Buy Selected";
-            btnBuy.AutoSize = true;
-            btnBuy.Location = new System.Drawing.Point(660, 504);
-            btnBuy.Enabled = false;
-            btnBuy.Click += BtnBuy_Click;
-            // 
-            // PurchaseForm
-            // 
-            ClientSize = new System.Drawing.Size(800, 600);
+            //
+            txtSearchImei = new MaterialTextBox
+            {
+                Hint = "Nhập IMEI...",
+                Location = new System.Drawing.Point(20, 80),
+                Size = new System.Drawing.Size(200, 36)
+            };
             Controls.Add(txtSearchImei);
+            //
+            // btnSearch
+            //
+            btnSearch = new MaterialButton
+            {
+                Text = "Tìm kiếm",
+                Location = new System.Drawing.Point(240, 80),
+                Size = new System.Drawing.Size(100, 36)
+            };
+            btnSearch.Click += BtnSearch_Click;
             Controls.Add(btnSearch);
-            Controls.Add(btnLogout);
-            Controls.Add(dgvStock);
-            Controls.Add(lblStock);
-            Controls.Add(btnBuy);
-            Text = "Purchase Phone";
+            //
+            // lblStatusFilter
+            //
+            lblStatusFilter = new MaterialLabel
+            {
+                Text = "Status:",
+                Location = new System.Drawing.Point(360, 88),
+                AutoSize = true
+            };
+            Controls.Add(lblStatusFilter);
+
+            cbxStatusFilter = new ComboBox
+            {
+                DropDownStyle = ComboBoxStyle.DropDownList,
+                Location = new System.Drawing.Point(420, 84),
+                Size = new System.Drawing.Size(120, 24)
+            };
+            cbxStatusFilter.Items.AddRange(new object[] { "All", "Available", "Sold" });
+            cbxStatusFilter.SelectedIndex = 0;
+            cbxStatusFilter.SelectedIndexChanged += (s, e) => LoadAllPhones();
+            Controls.Add(cbxStatusFilter);
+            //
+            // flpPhones
+            //
+            flpPhones = new FlowLayoutPanel
+            {
+                Location = new System.Drawing.Point(20, 140),
+                Size = new System.Drawing.Size(840, 400),
+                AutoScroll = true,
+                WrapContents = true,
+                FlowDirection = FlowDirection.LeftToRight
+            };
+            Controls.Add(flpPhones);
         }
 
         #endregion
-
+        
         private MaterialTextBox txtSearchImei;
         private MaterialButton btnSearch;
-        private MaterialButton btnLogout;
-        private DataGridView dgvStock;
-        private MaterialLabel lblStock;
-        private MaterialButton btnBuy;
+        private MaterialLabel lblStatusFilter;
+        private ComboBox cbxStatusFilter;
+        private FlowLayoutPanel flpPhones;
     }
 }

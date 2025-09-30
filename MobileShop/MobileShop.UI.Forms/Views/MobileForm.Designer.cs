@@ -32,14 +32,15 @@
             cboModel = new ComboBox();
             lblImei = new Label();
             txtImei = new TextBox();
-            lblStatus = new Label();
-            txtStatus = new TextBox();
             lblWarranty = new Label();
             dtpWarranty = new DateTimePicker();
             lblPrice = new Label();
             numPrice = new NumericUpDown();
-            lblStock = new Label();
-            numStock = new NumericUpDown();
+            lblName = new Label();
+            txtName = new TextBox();
+            lblImage = new Label();
+            picMobile = new PictureBox();
+            btnBrowse = new Button();
             btnOK = new Button();
             btnCancel = new Button();
             //
@@ -66,17 +67,6 @@
             txtImei.Location = new System.Drawing.Point(100, 52);
             txtImei.Size = new System.Drawing.Size(250, 27);
             //
-            // lblStatus
-            //
-            lblStatus.AutoSize = true;
-            lblStatus.Location = new System.Drawing.Point(12, 95);
-            lblStatus.Text = "Status:";
-            //
-            // txtStatus
-            //
-            txtStatus.Location = new System.Drawing.Point(100, 92);
-            txtStatus.Size = new System.Drawing.Size(250, 27);
-            //
             // lblWarranty
             //
             lblWarranty.AutoSize = true;
@@ -101,19 +91,31 @@
             numPrice.DecimalPlaces = 2;
             numPrice.Maximum = 1000000000;
             numPrice.Size = new System.Drawing.Size(120, 27);
+            // lblName
+            lblName.AutoSize = true;
+            lblName.Location = new System.Drawing.Point(12, 215);
+            lblName.Text = "Name:";
+            // txtName
+            txtName.Location = new System.Drawing.Point(100, 212);
+            txtName.Size = new System.Drawing.Size(250, 27);
+            // lblImage
+            lblImage.AutoSize = true;
+            lblImage.Location = new System.Drawing.Point(380, 15);
+            lblImage.Text = "Image:";
             //
-            // lblStock
+            // picMobile
             //
-            lblStock.AutoSize = true;
-            lblStock.Location = new System.Drawing.Point(12, 215);
-            lblStock.Text = "Price:";
+            picMobile.BorderStyle = BorderStyle.FixedSingle;
+            picMobile.Location = new System.Drawing.Point(380, 45);
+            picMobile.Size = new System.Drawing.Size(200, 200);
+            picMobile.SizeMode = PictureBoxSizeMode.Zoom;
             //
-            // numStock
+            // btnBrowse
             //
-            numStock.Location = new System.Drawing.Point(100, 212);
-            numStock.DecimalPlaces = 2;
-            numStock.Maximum = 1000000000;
-            numStock.Size = new System.Drawing.Size(120, 27);
+            btnBrowse.Location = new System.Drawing.Point(380, 255);
+            btnBrowse.Size = new System.Drawing.Size(200, 27);
+            btnBrowse.Text = "Browse Image...";
+            btnBrowse.Click += BtnBrowse_Click;
             //
             // btnOK
             //
@@ -132,21 +134,23 @@
             //
             // MobileForm
             //
+            picMobile.Cursor = Cursors.Hand;
+            picMobile.Click += BtnBrowse_Click;
             AcceptButton = btnOK;
             CancelButton = btnCancel;
-            ClientSize = new System.Drawing.Size(380, 300);
+            ClientSize = new System.Drawing.Size(600, 360);
             Controls.Add(lblModel);
             Controls.Add(cboModel);
             Controls.Add(lblImei);
             Controls.Add(txtImei);
-            Controls.Add(lblStatus);
-            Controls.Add(txtStatus);
             Controls.Add(lblWarranty);
             Controls.Add(dtpWarranty);
             Controls.Add(lblPrice);
             Controls.Add(numPrice);
-            Controls.Add(lblStock);
-            Controls.Add(numStock);
+            Controls.Add(lblName);
+            Controls.Add(txtName);
+            Controls.Add(lblImage);
+            Controls.Add(picMobile);
             Controls.Add(btnOK);
             Controls.Add(btnCancel);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -162,14 +166,15 @@
         private ComboBox cboModel;
         private Label lblImei;
         private TextBox txtImei;
-        private Label lblStatus;
-        private TextBox txtStatus;
         private Label lblWarranty;
         private DateTimePicker dtpWarranty;
         private Label lblPrice;
         private NumericUpDown numPrice;
-        private Label lblStock;
-        private NumericUpDown numStock;
+        private Label lblName;
+        private TextBox txtName;
+        private Label lblImage;
+        private PictureBox picMobile;
+        private Button btnBrowse;
         private Button btnOK;
         private Button btnCancel;
     }

@@ -1,15 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using MobileShop.UI.Forms.Helpers;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static Jenga.Theme;
 
 namespace MobileShop.UI.Forms.Views
 {
@@ -55,11 +46,12 @@ namespace MobileShop.UI.Forms.Views
             var row = dataGridView.SelectedRows[0];
             string imeiNo = row.Cells["IMEINO"].Value.ToString()!;
             int currentModelId = (int)row.Cells["ModelId"].Value;
-            string status = row.Cells["Status"].Value.ToString()!;
             DateTime warranty = (DateTime)row.Cells["Warranty"].Value;
             decimal price = (decimal)row.Cells["Price"].Value;
+            string image = row.Cells["Image"].Value.ToString();
+            string name = row.Cells["Name"].Value.ToString();
 
-            using var form = new MobileForm(imeiNo, currentModelId, status, warranty, price);
+            using var form = new MobileForm(imeiNo, currentModelId, warranty, price, name, image);
             if (form.ShowDialog() == DialogResult.OK)
                 LoadData();
         }

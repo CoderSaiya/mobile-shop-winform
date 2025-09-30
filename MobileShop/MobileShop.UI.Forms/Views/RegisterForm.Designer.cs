@@ -115,6 +115,7 @@ namespace MobileShop.UI.Forms.Views
             passConfirmTxt.StateCommon.Content.Color1 = Color.Black;
             passConfirmTxt.StateCommon.Content.Font = new Font("Cambria", 10.2F);
             passConfirmTxt.TabIndex = 16;
+            passConfirmTxt.UseSystemPasswordChar = true;
             // 
             // usernameTxt
             // 
@@ -174,6 +175,7 @@ namespace MobileShop.UI.Forms.Views
             passTxt.StateCommon.Content.Color1 = Color.Black;
             passTxt.StateCommon.Content.Font = new Font("Cambria", 10.2F);
             passTxt.TabIndex = 21;
+            passTxt.UseSystemPasswordChar = true;
             // 
             // label6
             // 
